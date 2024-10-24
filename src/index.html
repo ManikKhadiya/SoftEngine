@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8"> <!-- Sets the character encoding for the document -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling on mobile devices -->
+        <title>3D Soft Engine using HTML5 Canvas</title> <!-- Title of the web page -->
+    
+        <!-- Link to the external CSS file for styling -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <!-- Include Babylon.js library for 3D rendering -->
+        <script src="https://cdn.babylonjs.com/babylon.js"></script> <!-- Babylon.js is a powerful 3D engine -->
+        <script src="lib/babylon.math.js"></script> <!-- Additional math functions for Babylon.js -->
+    
+        <!-- Include the SoftEngine and main scripts -->
+        <script src="softEngine.js"></script> <!-- Custom SoftEngine script -->
+        <script src="main.js"></script> <!-- Main script that initializes and runs the engine -->
+    </head>
+
+    <body>
+        <!-- Canvas element where the 3D scene will be rendered -->
+        <canvas id="frontBuffer" width="1600" height="1000" style="background-color: black;"></canvas> <!-- Canvas size and background color -->
+    </body>
+</html>

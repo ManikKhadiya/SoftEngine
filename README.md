@@ -25,3 +25,28 @@ If you're on Linux/Mac:
 1. Run the `start.sh` script in the terminal:
    ```bash
    ./start.sh
+
+### --------------------------------
+
+# 3D Soft Engine
+
+This project implements a simple 3D graphics engine using HTML5 Canvas and Babylon.js. The engine is designed to render a rotating cube and serves as a foundational framework for building more complex 3D scenes.
+
+## Features
+
+- **3D Rendering:** Renders a rotating cube using vertices and faces defined in JavaScript.
+- **Camera Control:** Simple camera implementation allowing dynamic viewing of the 3D scene.
+- **Modular Design:** Engine classes are modular, enabling easy expansion and integration of new features.
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Edge).
+- Basic understanding of HTML, CSS, and JavaScript.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/3D-Soft-Engine.git
